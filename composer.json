@@ -1,7 +1,7 @@
 {
     "name": "cannon/creatorstaff-module",
-    "description": "",
     "type": "laravel-module",
+    "description": "",
     "authors": [
         {
             "name": "Nicolas Widart",
