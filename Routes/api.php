@@ -1,7 +1,6 @@
 <?php
 
 use Illuminate\Http\Request;
-use Modules\CreatorStaff\Http\Controllers;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,5 +12,5 @@ use Modules\CreatorStaff\Http\Controllers;
 | is assigned the "api" middleware group. Enjoy building your API!
 |
 */
-Route::resource('/staff', Controllers\StaffController::class);
+Route::resource('/staff', StaffController::class);
 
