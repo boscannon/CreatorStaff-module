@@ -63,7 +63,7 @@ class StaffController extends Controller
         try{
             DB::beginTransaction();
 
-            //code
+            $data = Staff::findOrFail($id);
 
             DB::commit();
             return response()->json(['message' => __('create').__('success')]);
