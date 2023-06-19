@@ -1,0 +1,11 @@
+{
+    "name": "CreatorStaff",
+    "alias": "creatorstaff",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\CreatorStaff\\Providers\\CreatorStaffServiceProvider"
+    ],
+    "files": []
+}
