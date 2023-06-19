@@ -1,5 +1,5 @@
 {
-    "name": "nwidart/creatorstaff-module",
+    "name": "cannon/creatorstaff-module",
     "description": "",
     "authors": [
         {
@@ -17,7 +17,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Modules\\CreatorStaff-module\\": ""
+            "Modules\\CreatorStaff\\": ""
         }
     }
 }
